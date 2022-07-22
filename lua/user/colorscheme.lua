@@ -5,4 +5,6 @@ catch /^Vim\%((\a\+)\)\=:E185/
   colorscheme default
   set background=dark
 endtry
+
+hi CursorLine guibg=NONE gui=underline
 ]]
